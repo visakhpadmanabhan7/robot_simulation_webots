@@ -2,6 +2,8 @@
 
 Packages used : requirements.txt
 
+Workflow and tools : 
+
 1. To simulate the robot : Webots application (https://cyberbotics.com/doc/reference/introduction) and used ur5 robotic arm and used the controller publish_angle.py.
 2. The joint and velocity data payload is published to MQTT broker.
 3. The payload is received by the subscriber (mqtt_subscriber) and the data is stored in the SQLite database. (ur5_data.db)
